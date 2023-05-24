@@ -1,0 +1,26 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <div x-data="{ open: false }">
+        <button @click="open = true">Expand</button>
+
+        <span x-show="open">
+            Content...
+        </span>
+    </div>
+
+
+</body>
+
+</html>
